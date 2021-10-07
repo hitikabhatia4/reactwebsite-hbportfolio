@@ -13,7 +13,7 @@ function Profile() {
           <Box alignSelf="center" px="32" py="16" >
             <Text fontWeight="bold" fontSize="4xl" textAlign="center" mt="20">Projects</Text>
             <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} >
-              <Flex rounded="xl" direction="column" mt={4} bg="blue.400" h="30vh" w="30vh" justify="flex-end" mr="20" ml="-20" _hover={{bg:"green.400"}}>
+              <Flex rounded="xl" direction="column" mt={4} bg="blue.400" h="30vh" w="30vh" justify="flex-end" mr="20"  _hover={{bg:"green.400"}}>
                   <Icon color="white" p="4" as={DiAndroid} w="24" h="24"></Icon>
                   <Text color="white" p="4" fontSize="xl" fontWeight="semibold">
                     Android Projects
