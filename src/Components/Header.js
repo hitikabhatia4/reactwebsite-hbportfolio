@@ -17,7 +17,7 @@ function Header() {
           <Flex direction={isNotSmallerScreen ? "row" : "column"} spacing="200px" p={isNotSmallerScreen ? "32": "0"} alignSelf="flex-start">
             <Box mt={isNotSmallerScreen ? "0" : 16} align='flex-start'>
                 <Text fontSize="5xl" fontWeight="semibold">Hi, Iam</Text>
-                <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r,cyan.400,blue.500,purple.600)" bgClip='text'>Hitika Bhatia</Text>
+                <Text fontSize="6xl" fontWeight="bold" bgGradient="linear(to-r,cyan.400,blue.500,purple.600)" bgClip='text'>Hitika Bhatia</Text>
                 <Text color={isDark ? "gray.200" : "gray.500"}>Computer Science Student, Webdeveloper</Text>
                 <Button mt={10}   colorScheme="blue" onClick={()=>window.open("")}>Hire Me</Button>
             </Box>
